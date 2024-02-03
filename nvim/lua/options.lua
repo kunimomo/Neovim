@@ -10,7 +10,7 @@ local options = {
 	-- 検索時にハイライト
 	hlsearch = true,
 	-- カーソルのある行をハイライト
-	cursorline = true,
+	-- cursorline = true,
 	-- カーソルのある列をハイライト
 	cursorcolumn = true,
 	-- UTF-8でエンコーディング
