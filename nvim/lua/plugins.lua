@@ -13,4 +13,22 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup ({
   {'preservim/nerdtree'},
+  {'akinsho/toggleterm.nvim', version = "*", config = true}
 })
+
+require('toggleterm').setup {
+  open_mapping = [[<C-v>]],
+  hide_numbers = true,
+  shade_terminals = false,
+  float_opts = {
+    border = 'single',
+    width = 100,
+    height = 25,
+    winblend = 0,
+    highlights = {
+      border = "Normal",
+      background = "Normal",
+    }, 
+  },
+  direction = 'float',
+}
