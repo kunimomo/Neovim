@@ -13,7 +13,9 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup ({
   {'preservim/nerdtree'},
-  {'akinsho/toggleterm.nvim', version = "*", config = true}
+  {'akinsho/toggleterm.nvim', version = "*", config = true},
+  {'junegunn/fzf'},
+  {'junegunn/fzf.vim'}
 })
 
 require('toggleterm').setup {
