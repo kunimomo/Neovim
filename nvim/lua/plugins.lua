@@ -19,7 +19,7 @@ require('lazy').setup ({
 })
 
 require('toggleterm').setup {
-  open_mapping = [[<C-g>]],
+  open_mapping = [[<C-t>]],
   hide_numbers = true,
   shade_terminals = false,
   float_opts = {
