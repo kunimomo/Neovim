@@ -7,7 +7,7 @@ keymap('i', '[', '[]', opts)
 keymap('i', 'jj', '<ESC>', opts)
 
 -- nerdtree
-keymap('n', '<C-t>', ':NERDTreeToggle<CR>', opts)
+-- keymap('n', '<C-t>', ':NERDTreeToggle<CR>', opts)
 
 -- fzf.vim
 keymap('n', '<Leader>f', ':Files<CR>', opts)
